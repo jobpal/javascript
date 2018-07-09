@@ -12,6 +12,7 @@ module.exports = {
       argsIgnorePattern: "^_|^e$|^err|^event$|^props$|^req$|^res$|^next$",
       ignoreRestSiblings: true,
       caughtErrors: 'none',
-    }]
+    }],
+    'no-dynamic-require': ['allow'],
   }
 }
