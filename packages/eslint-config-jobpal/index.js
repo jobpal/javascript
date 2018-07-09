@@ -4,9 +4,14 @@ module.exports = {
   ],
   rules: {
     semi: ['error', 'never', {
-      'beforeStatementContinuationChars': 'any',
+      beforeStatementContinuationChars: 'any',
     }],
     'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
     'no-underscore-dangle': ['off'],
+    'no-unused-vars': ['error', {
+      argsIgnorePattern: "^_|^e$|^err|^event$|^props$|^req$|^res$|^next$",
+      ignoreRestSiblings: true,
+      caughtErrors: 'none',
+    }]
   }
 }
