@@ -5,6 +5,7 @@ module.exports = {
   rules: {
     semi: ['error', 'never', {
       'beforeStatementContinuationChars': 'any',
-    }]
+    }],
+    'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }]
   }
 }
