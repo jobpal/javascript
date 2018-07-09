@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jobpal",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "eslint configuration package for jobpal",
   "main": "index.js",
   "scripts": {
