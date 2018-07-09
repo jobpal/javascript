@@ -13,6 +13,6 @@ module.exports = {
       ignoreRestSiblings: true,
       caughtErrors: 'none',
     }],
-    'no-dynamic-require': ['allow'],
+    'import/no-dynamic-require': ['allow'],
   }
 }
