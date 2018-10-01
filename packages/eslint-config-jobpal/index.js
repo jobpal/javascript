@@ -9,7 +9,7 @@ module.exports = {
     'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
     'no-underscore-dangle': ['off'],
     'no-unused-vars': ['error', {
-      argsIgnorePattern: "^_|^e$|^err|^event$|^props$|^req$|^res$|^next$",
+      argsIgnorePattern: "^_|^e$|^err|^event$|^props$|^req$|^res$|^next$|^classes$|^theme$",
       ignoreRestSiblings: true,
       caughtErrors: 'none',
     }],
